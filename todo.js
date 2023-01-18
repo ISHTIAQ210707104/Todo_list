@@ -80,7 +80,7 @@ addingButton.addEventListener('click', function(e){
 
 
 function editWorking(e){
-    var editValue = prompt('edit the select item', e.firstChild.nodeValue);
+    var editValue = prompt('Edit the select item', e.firstChild.nodeValue);
     e.firstChild.nodeValue = editValue;
 }
 function deleteAllElements(){
